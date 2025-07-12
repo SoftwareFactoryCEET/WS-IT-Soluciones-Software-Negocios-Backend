@@ -1,0 +1,6 @@
+@GestionVoluntariadoEventosAPI_HostAddress = http://localhost:5081
+
+GET {{GestionVoluntariadoEventosAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
