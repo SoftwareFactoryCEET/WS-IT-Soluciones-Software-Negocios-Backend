@@ -40,4 +40,7 @@ public partial class Event
     [Required(ErrorMessage = "El contacto del organizador es obligatorio.")]
     [StringLength(100)]
     public string OrganizerContact { get; set; } = null!;
+
+    [InverseProperty("Event")]
+    public virtual ICollection<EventVolunteer> EventVolunteers { get; set; } = new List<EventVolunteer>();
 }

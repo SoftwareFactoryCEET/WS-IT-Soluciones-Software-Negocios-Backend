@@ -8,6 +8,7 @@ namespace GestionVoluntariadoEventosAPI.Models;
 
 public partial class User
 {
+
     [Key]
     public int Id { get; set; }
 
